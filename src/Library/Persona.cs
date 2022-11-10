@@ -1,7 +1,12 @@
 namespace Library{
     public class Persona{
-        private string nombre{get;set;}
+        private string nombre;
         private int edad;
+        public string Nombre {
+            get{
+                return this.nombre;
+            }
+        }
         public int Edad {
             get{
                 return this.edad;
